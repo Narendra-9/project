@@ -1,0 +1,27 @@
+.cashPointsSlider{
+    width: 100%;
+}
+
+.cashPointsSlider p{
+    margin: 0;
+}
+
+.esChashLabel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.esCash{
+    display: flex;
+    align-items: center;
+
+}
+
+.userInfo{
+    margin-top: 10px !important;
+    font-size: 15px;
+}
+
+.slider{
+    padding: 5px;
+}

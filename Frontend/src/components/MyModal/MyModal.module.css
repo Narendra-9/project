@@ -1,0 +1,63 @@
+.modalHeader,
+.modalBodyCustomBg,
+.modalFooter{
+    background-color: #30404B;
+}
+
+.modalItemAddress p{
+    margin: 0;
+    color: white;
+}
+
+.modalOrderItem{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #5E6A73;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.modalOrderItemContent p{
+    margin: 0;
+    font-size: 13px;
+    color: white;
+}
+
+.productName{
+    display: -webkit-box;          
+    -webkit-line-clamp: 2;          
+    -webkit-box-orient: vertical;  
+    overflow: hidden;               
+    text-overflow: ellipsis;        
+}
+
+.modalTitle{
+    color: white;
+    display: flex;
+    justify-content: space-between;    
+    width: 100%;
+}
+
+.modalOrderStatus{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.closeBtn{
+    border: 1px solid white;
+    background: transparent;
+    padding: 7px;
+    width: 100px;
+    color: white;
+    border-radius: 8px;
+}
+
+.saveBtn{
+    border: 1px solid white;
+    background: transparent;
+    padding: 7px 15px;
+    color: white;
+    border-radius: 8px;
+}

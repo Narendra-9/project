@@ -1,0 +1,156 @@
+.user-order-accordian{
+    background-color: #30404B !important;
+    color: white !important;
+}
+
+.user-order-accordian-premium{
+    background-color: rgb(29, 28, 28) !important;
+    color: white !important;
+}
+
+.user-order-accordain-summary{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.438) !important;
+}
+.order-transaction-details{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-corner-div p{
+    margin: 0;
+}
+
+.left-corner-div{
+    display: flex;
+    align-items: center;
+}
+
+.payment-status-icon{
+    height: 50px !important;
+    padding: 10px;
+    width: auto !important;
+}
+
+.user-order-payment-status{
+    font-size: 20px;
+}
+
+.psuccess{
+    color: rgb(71, 236, 71) !important;
+}
+.ppending{
+    color: orange !important;
+}
+.pfailed{
+    color: red !important;
+}
+
+
+/* accordiandetails */
+.order-item-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.374);
+    padding: 10px;
+}
+
+.order-item{
+    display: flex;
+}
+
+.order-item-div p{
+    margin: 0;
+}
+
+.order-item-img{
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.order-item-bought-deatils{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.order-item-quantity-varient{
+    font-weight: bold;
+}
+
+.cancel-order-div{
+    padding:20px 10px;
+    display: flex;
+}
+
+.myorders-order-cancel-btn{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.user-order-placed-date{
+    margin-top: 15px;
+}
+
+.right-corner-div{
+    display: flex;
+    align-items: center;
+}
+
+.remaining-time-div p{
+    margin: 0;
+}
+
+.remaining-time-div{
+    display: flex;
+}
+
+.remaining-time{
+    /* font-size: 20px; */
+}
+
+.order-add-review{
+    display: flex;
+    align-items: center;
+}
+
+
+.review-arrow-right{
+    height: 15px !important;
+    width: auto;
+}
+
+.order-add-review{
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.order-add-review:hover{
+    margin-right: 20px;
+    color:#FF5640
+}
+
+.order-placed-btns-div{
+    display: flex;
+    padding: 10px;
+}
+
+.myorders-btn{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}

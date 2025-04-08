@@ -1,0 +1,31 @@
+.user-address-input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-address-input-label{
+    font-size: 13px;
+}
+
+.user-address-input{
+    padding: 10px;
+    background-color: #47555F;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.737);
+    height: 40px;
+    border: none;
+}
+
+.user-address-input:focus{
+    outline: none;
+}
+
+.user-address-input::placeholder{
+    color: rgba(255, 255, 255, 0.349);
+    font-size: 14px;
+}
+
+.star{
+    color: red;
+}
+

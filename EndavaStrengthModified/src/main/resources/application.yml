@@ -1,0 +1,32 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: en1mgtestemail@gmail.com
+    password: zajh etbe lfwe cauh
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=EndavaStrength3;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: Galaxy@123
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+logging:
+  file:
+    name: EndavaStrength.log
+
+sha:
+  my-salt: nSaArHeInTdIra
+
+aes:
+  secretkey: MySecretKey12345
+
+logo:
+  path: "C:\\Users\\shvanapalli\\endava_strength_logo.png"

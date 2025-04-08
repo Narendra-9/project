@@ -1,0 +1,32 @@
+.skeleton{
+    background-color: #30404B;
+    padding: 10px;
+    height: 240px;
+    width: 450px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.premiumSkeleton{
+    background-color: rgb(43, 42, 42);
+    padding: 10px;
+    height: 240px;
+    width: 450px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.box1{
+    display: flex;
+}
+
+.box2{
+    margin-left: 20px;
+}
+
+.box3{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}

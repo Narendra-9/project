@@ -1,0 +1,166 @@
+.home-page-popular-div{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 60px;
+}
+
+.home-page-popular-section{
+    min-height: 450px;
+    background: rgb(255,86,64);
+    background: linear-gradient(180deg, rgba(255, 86, 64, 0.564) 0%, rgba(25,43,55,1) 100%);
+    
+}
+
+.home-page-popular-section-premium{
+    background: linear-gradient(TO right,#040404, #000000, #656565);
+}
+
+.popular-section-buttons{
+    display: flex;
+    margin-top: 30px;
+}
+
+.best-seller-btn{
+    padding: 5px;
+    width: 120px;
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.popular-section-category-btn{
+    padding: 5px;
+    width: 120px;
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.popular-active{
+    background-color: white;
+    color: #192B37;
+}
+
+.category-display-img-div{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.category-display-img{
+    /* background-color: black; */
+    filter: brightness(60%) contrast(120%);
+    object-fit: cover; /* Ensures the image covers the container */
+    object-position: center; 
+}
+
+.category-display-name{
+    position: absolute;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.category-display-container{
+    /* background-color: red; */
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.see-all-products{
+    display: flex;
+    margin-top: 40px;
+    /* padding-bottom: 30px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-shop-by-top-categories-section{
+    padding: 30px;
+    /* background-color: rebeccapurple; */
+    min-height: 450px;
+}
+
+
+.top-categories-display-container{
+    display: flex;
+    /* padding: 20px; */
+}
+
+.top-category-card{
+    position: relative;
+    margin-right: 50px;
+}
+
+.top-category-display-img{
+    height: 250px;
+    border-radius: 10px;
+    filter: brightness(40%) contrast(130%);
+    object-fit: cover; /* Ensures the image covers the container */
+    object-position: center;
+}
+
+.top-category-name{
+    position: absolute;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    background: rgb(255,86,64);
+    background: linear-gradient(160deg, rgba(255, 86, 64, 0.379) 0%, rgba(25, 43, 55, 0.493) 100%);
+    width: 100%;
+}
+
+/* .top-category-name{
+    position: absolute;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+    max-width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+.home-page-apparel-range-section{
+    padding: 30px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #FF5640;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 30px;
+}
+
+.swiper-button-next{
+    right: 25px;
+}
+
+
+.home-page-fit-food-section{
+    padding: 30px;
+}
+
+.home-page-new-arrivals-section{
+    padding: 30px;
+}
+
+.home-page-low-stock-section{
+    padding: 30px;
+}

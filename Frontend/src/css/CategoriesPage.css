@@ -1,0 +1,37 @@
+.user-categories-page{
+    margin-top: 120px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.categories-page-categories-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    /* background-color: red; */
+}
+
+.category-page-category-card{
+    margin: 50px 50px 0px 0px ;
+}
+
+.category-page-category-card img{
+    height: auto;
+    width: 230px;
+}
+
+.categories-page-category-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bullet-point{
+    width: 10px;
+    height: 40px;
+    background-color: #FF5640;
+}
+
+.categories-heading{
+    display: flex;
+    align-items: center;
+}

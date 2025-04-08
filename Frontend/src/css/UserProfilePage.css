@@ -1,0 +1,148 @@
+.user-profile-container {
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+
+.user-navigation-item:hover {
+  cursor: pointer;
+}
+
+.section-active {
+  border-bottom: 3px solid white;
+}
+
+.navigation-line {
+  margin: 0;
+  margin-top: -3px;
+  height: 3px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.091);
+}
+
+.user-myprofile-container {
+  padding: 70px;
+  box-shadow: 0px 0px 10px 0px black;
+  border-radius: 10px;
+}
+
+.user-profile-edit-btn {
+  /* border: 1px solid white; */
+  background: transparent;
+  color: white;
+  padding: 8px;
+  width: 100px;
+  background-color: #ff5640;
+  border-radius: 5px;
+}
+
+.user-navigation-item {
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  width: 150px;
+}
+
+.user-profile-navigation {
+  display: flex;
+}
+
+.discard-btn {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.save-btn {
+  border: 1px solid white;
+  background-color: #ff5640;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.add-address-container {
+  width: 35%;
+  z-index: 500;
+  position: absolute;
+  top: 6%;
+  transform: translateX(-50%);
+  left: 50%;
+  background-color: #192b37;
+  padding: 25px;
+  border-radius: 10px;
+  height: 640px;
+  overflow-y: auto;
+}
+
+/* Style the scrollbar itself */
+.add-address-container::-webkit-scrollbar {
+  width: 10px; /* Adjust width of the scrollbar */
+  height: 10px; /* Adjust height for horizontal scrollbar */
+}
+
+/* Style the track (part the thumb slides within) */
+.add-address-container::-webkit-scrollbar-track {
+  background-color: #2c3e50; /* Darker background for the track */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Style the thumb (the draggable part of the scrollbar) */
+.add-address-container::-webkit-scrollbar-thumb {
+  background-color: #ff5640; /* Blue color for the thumb */
+  border-radius: 10px;
+  border: 3px solid #2c3e50; /* Optional: adding a border around the thumb */
+}
+
+
+.add-address-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 300;
+  backdrop-filter: blur(5px);
+  background-color: #000000a5;
+}
+
+.save-address-btn {
+  border: none;
+  padding: 9px;
+  /* background-color: #417191; */
+  background-color: #ff5640;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.save-address-btn:hover {
+  box-shadow: 0px 0px 10px 0px black;
+  /* border: 1px solid white; */
+}
+
+.address-container-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-address-close-icon:hover {
+  cursor: pointer;
+}
+
+.add-address-close-icon path{
+  fill: #ff5640;
+}
+
+.default-input-check {
+  width: 18px;
+  height: 18px;
+  accent-color: #ff5640;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Back in Stock</title>
+    <style>
+        body { font-family: Arial, sans-serif; color: #333; }
+        .email-container { max-width: 600px; margin: auto; padding: 20px; background-color: #192B37; 
+                           color: white; border-radius: 8px; text-align: center; }
+        .logo { text-align: center; margin-bottom: 20px; }
+        .header { font-size: 22px; font-weight: bold; color: #4CAF50; }
+        .product-name { font-size: 18px; font-weight: bold; margin-top: 15px; }
+        .cta-button { display: inline-block; margin-top: 20px; padding: 12px 20px; 
+                      background-color: #FF5640; color: white; text-decoration: none; 
+                      font-size: 16px; font-weight: bold; border-radius: 5px; }
+        .footer { margin-top: 30px; font-size: 14px; color: #bbb; }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="logo">
+            <img src="cid:companyLogo" alt="Company Logo" style="height: 80px;">
+        </div>
+        <div class="header">Great News, ${username}! 🎉</div>
+        <p>Your requested product is back in stock!</p>
+        <p class="product-name">${productName}</p>
+        <img src="${productImgUrl}" alt="product-img" style="max-width:100%; height:auto; margin-top:10px; border-radius:5px;">
+        <p><a class="cta-button" href="http://localhost:3000/products/${slug}">Grab it Now</a></p>
+        <div class="footer">
+            <p>Hurry! Stocks are limited.</p>
+            <p><strong>Best Regards,</strong><br><span style="color:#ff5640;font-weight:bold;">Endava Strength</span></p>
+        </div>
+    </div>
+</body>
+</html>

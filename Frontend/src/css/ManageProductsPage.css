@@ -1,0 +1,137 @@
+.products-table{
+    margin: 100px;
+    color: white;
+}
+
+.manage-product-edit-btn{
+    padding: 5px 10px;
+    border: 1px solid #FF5640;
+    border-radius: 5px;
+    background: transparent;
+    color: #FF5640;
+    font-weight: bold;
+}
+
+.manage-product-edit-btn:disabled{
+    cursor: not-allowed;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.manage-product-disable{
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: transparent;
+    width: 80px;
+    font-weight: bold;
+    color: red;
+}
+
+.manage-product-enable{
+    padding: 5px 10px;
+    margin-left: 10px;
+    width: 80px;
+    border: 1px solid rgb(9, 165, 9);
+    border-radius: 5px;
+    color: rgb(9, 165, 9);
+    font-weight: bold;
+    background: transparent;
+}
+
+.mproduct-add-btn{
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 50%;
+    background-color: #FF5640;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.mproduct-add-btn-div{
+    display: flex;
+    justify-content: end;
+}
+
+.edit-product-overlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.527);
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.edit-product-popup{
+    width: 330px;
+    background-color: #192B37;
+    border-radius: 10px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 200;
+}
+
+.edit-product-popup-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-product-popup-input-text{
+    background-color: #30404B;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color:rgba(255, 255, 255, 0.598)
+}
+
+.edit-product-popup-input-text:focus{
+    outline: none;
+}
+
+.edit-product-popup-save-btn{
+    border: none;
+    padding: 6px;
+    border-radius: 7px;
+    width: 50%;
+    background-color: #FF5640;
+    color: white;
+    font-weight: 500;
+}
+
+.edit-product-popup-cancel-btn{
+    padding: 6px;
+    border-radius: 7px;
+    width: 50%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: 500;
+    margin-right: 10px; 
+}
+
+.edit-product-popup-img{
+    display: flex;
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+.edit-product-img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.edit-product-popup-save{
+    display: flex;
+    justify-content: center;
+}
+

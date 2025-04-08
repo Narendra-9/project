@@ -1,0 +1,121 @@
+.product-card-vertical{
+    background-color: #30404B;
+    padding: 10px;  
+    border-radius: 10px;
+    min-width: 300px;
+    width: 300px;    
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.vertical-card-offer-tag{
+    position: absolute;
+    top:-13px;
+}
+
+.vertical-card-offer-value{
+    position: absolute;
+    color: white;
+    top: 14px;
+    left: 17px;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+}
+
+.product-card-vertical-premium-theme .vertical-card-offer-value{
+    color: black !important;
+}
+
+.product-card-vertical-premium-theme{
+    background: transparent;
+    border: 1px solid gold;
+}
+
+
+.product-card-vertical-img-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.product-card-vertical-img{
+    border-radius: 10px;
+    height:150px;
+}
+
+.product-card-vertical-product-varient{
+    font-weight: bold;
+}
+
+.product-card-vertical-premium{
+    display: flex;
+    align-items: center;
+}
+
+.product-card-vertical-premium-icon{
+    height: 25px;
+    padding: 3px;
+    background-color: black;
+    border-radius: 5px;
+    width: auto;
+}
+
+.product-card-vertical-add-to-cart-btn{
+    width: 100%;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FF5640;
+    border: none;
+}
+
+.product-card-vertical-premium-theme .product-card-vertical-add-to-cart-btn{
+    width: 100%;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: goldenrod;
+    border: none;
+}
+
+.product-card-vertical-price{
+    margin: 0;
+}
+.prduct-card-vertical-discount-price{
+    font-weight: bold;
+    font-size: 18px;
+}
+.product-card-vertical-premium-price{
+    font-weight: bold;
+    font-size: 18px;
+}
+.product-card-vertical-base-price{
+    text-decoration: line-through;
+}
+.product-card-save-price{
+    color: #3DD17B;
+}
+
+.product-card-vertical-premium-theme .vertical-product-discount-tag{
+    background-color: goldenrod !important;
+}
+
+
+.vertical-product-card-rating{
+    background-color: #FF5640;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border-radius: 5px;
+    padding-left: 7px;
+    top: 70%;
+    right: 25%;
+
+}

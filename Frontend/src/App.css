@@ -1,0 +1,355 @@
+@font-face {
+  font-family: "DavaSans";
+  src: url("../public/fonts/DavaSans-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.admin-navbar {
+  background-color: #192b37;
+  width: 100%;
+  padding: 10px;
+  /* box-shadow: 0px 0px 10px 0px black; */
+  position: fixed !important;
+  top: 0%;
+  z-index: 20;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans";
+  /* font-family: 'DavaSans'; */
+}
+
+body {
+  background-color: #192b37 !important;
+}
+
+.category-add-btn {
+  padding: 8px;
+  height: 50px;
+  border: 2px solid white;
+  /* background-color: #ff5640; */
+  background: transparent;
+  border-radius: 30px;
+  width: 100px;
+  color: white;
+  font-weight: 900;
+}
+
+table {
+  border: 1px solid white;
+}
+
+th {
+  border: 1px solid white !important;
+  padding: 10px;
+  color: #ff5640;
+}
+
+td {
+  border: 1px solid white !important;
+  padding: 10px;
+}
+
+.category-delete-btn {
+  border: 2px solid white;
+  padding: 8px;
+  min-width: 90px;
+  border-radius: 10px;
+  color: white;
+  background: transparent;
+  font-weight: 500;
+}
+
+.category-delete-btn:hover {
+  background-color: #68b5e8;
+}
+
+.sub-category-delete-btn {
+  border: 2px solid white;
+  padding: 8px;
+  min-width: 90px;
+  border-radius: 10px;
+  color: white;
+  background: transparent;
+  font-weight: 500;
+}
+
+.sub-category-delete-btn:hover {
+  background-color: #ff5640;
+}
+
+.right-corner {
+  color: #ff5640;
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 40px;
+}
+
+.add-product-container {
+  /* max-width: 80% !important; */
+  margin: 100px;
+  color: white;
+  padding: 10px;
+}
+
+.description-heading {
+  display: flex;
+  align-items: center;
+}
+
+.add-field-container {
+  position: fixed;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.808);
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside-container {
+  background-color: #192b37;
+  height: 250px;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 20px;
+}
+
+.description-input-field {
+  background-color: #dbdbdb2b !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  height: 50px;
+  border: none !important;
+  border-radius: 10px !important;
+  margin-bottom: 25px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0%;
+  border: none;
+  background-color: #68b5e8;
+  color: black;
+}
+
+.add-field {
+  width: 100%;
+  padding: 20px;
+}
+
+.field-save-btn {
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  background: transparent;
+  width: 80px;
+}
+
+.field-cancel-btn {
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  background: transparent;
+  width: 80px;
+}
+
+.add-product-btn {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-weight: 600;
+  color: white;
+  background: transparent;
+  width: 100px;
+}
+
+.active {
+  color: #ff5640 !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.nav-link.active,
+.dropdown-link.active {
+  color: #ff5640 !important;
+  /* Orange color */
+}
+
+.nav-link:hover,
+.dropdown-link:hover {
+  color: #ff5640 !important;
+  /* Orange color on hover */
+}
+
+.product-display-image {
+  color: #ff5640;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #192b37;
+  color: #343a40;
+}
+
+.error-page h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.error-page h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.error-page p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  color: #6c757d;
+}
+
+.error-page button {
+  margin-top: 1rem;
+}
+.error-page-go-home-btn {
+  color: #6c757d;
+  background: transparent;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #6c757d;
+}
+
+.product-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+
+.slider-img:hover {
+  cursor: pointer;
+}
+
+.primary-img-container {
+  height: auto;
+}
+
+.accrodian {
+  z-index: 1;
+  /* Accordion has lower z-index so it stays below the image */
+}
+
+.category-accordian {
+  background-color: #dbdbdb2b !important;
+  color: white !important;
+  /* border-radius: 10px !important; */
+  margin: 10px 0 !important;
+}
+
+.category-page-input {
+  background-color: #dbdbdb2b !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  height: 50px;
+  border: none !important;
+  border-radius: 10px !important;
+}
+.category-page-input::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-weight: 500;
+}
+
+.category-select-option {
+  background-color: grey !important;
+  color: white !important;
+}
+.error-text {
+  color: white !important;
+}
+.accordian-text-content {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.accordian-summary-content {
+  font-size: 18px;
+}
+
+.manage-product-input-field {
+  background-color: #dbdbdb2b !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  height: 50px;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.manage-product-input-field::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.manage-product-input-field {
+  scrollbar-width: none;
+}
+
+.jodit-toolbar-button .jodit-icon {
+  filter: brightness(0) invert(1) !important; /* Converts icons to white */
+}
+
+.add-product-plus-btn {
+  background-color: #30404b;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.add-product-plus-btn:hover {
+  background-color: #5e6a73;
+}
+
+.add-product-plus-icon path {
+  fill: #ff5640;
+}
+
+.add-product-img-field-close path {
+  fill: #ff5640;
+}
+
+.add-product-img-field-outermost{
+    position: relative;
+}
+
+.add-product-img-field-close{
+    position: absolute;
+    right: 0%;
+
+    cursor: pointer;
+}
+
+/* Premium styles Common */
+.premium-border {
+  border: 1px solid gold !important;
+}

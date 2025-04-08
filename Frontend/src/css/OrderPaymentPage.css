@@ -1,0 +1,215 @@
+.order-payment-page {
+  margin-top: 100px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.order-payment-page-left-section {
+  width: 40%;
+  padding: 40px;
+}
+
+.order-payment-page-right-section {
+  width: 60%;
+  padding: 20px;
+}
+
+.order-payment-page-right-section p {
+  margin: 0;
+}
+
+.payment-methods {
+  display: flex;
+}
+
+.payment-method {
+  display: flex;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.557);
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.payment-method img {
+  margin-left: 10px;
+}
+
+.selected {
+  background-color: #5899c4;
+}
+
+.order-payment-page-premium .selected {
+  background-color: goldenrod !important;
+}
+
+/* save-upi-checkboc */
+
+.upi-input-div {
+  display: flex;
+}
+
+.upi-input-relative {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.upi-input {
+  padding: 10px;
+  border: none;
+  background-color: #47555f8c;
+  color: rgba(255, 255, 255, 0.628);
+  width: 350px;
+  border-radius: 5px;
+}
+
+.upi-input::placeholder {
+  color: rgba(255, 255, 255, 0.628);
+}
+
+.card-input {
+  width: 100% !important;
+}
+
+.upi-verify {
+  position: absolute;
+  right: 2%;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.upi-save {
+  display: flex;
+  align-items: center;
+}
+
+.upi-input:focus {
+  outline: none;
+}
+
+.upi-save-checkbox {
+  height: 18px;
+  width: 18px;
+}
+
+.upi-save-label {
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.secure-pay-btn {
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #ff5640;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.card-verify {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.secure-pay-btn-card {
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #ff5640;
+  font-weight: bold;
+}
+
+.secure-pay-btn-card:disabled {
+  opacity: 0.5;
+}
+
+/* card section */
+
+.card-number-input-relative {
+  position: relative;
+}
+
+.card-icon path {
+  fill: #ff5640;
+}
+
+.card-icon {
+  position: absolute;
+  right: 2%;
+  top: 10px;
+}
+
+.cvv-input {
+  position: relative;
+}
+
+.cvv-tooltip path {
+  fill: #ff5640;
+}
+
+.cvv-tooltip {
+  position: absolute;
+  right: 2%;
+  top: 12px;
+  width: auto;
+  height: 20px;
+}
+
+.saved-card-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* COD */
+
+.warning-message {
+  display: flex;
+  align-items: center;
+}
+
+.cod-info-msg {
+  display: flex;
+  align-items: center;
+}
+
+.cod-msg-container {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.pay-cod-btn {
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 13px;
+  background: transparent;
+  width: 200px;
+}
+
+.pay-online-btn {
+  padding: 13px;
+  background-color: #ff5640;
+  color: white;
+  border: none;
+  width: 200px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.empty-cart-payment-message {
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+  background-color: #2e404d;
+  padding: 10px;
+}
+
+.empty-cart-payment-message p {
+  margin: 0;
+}

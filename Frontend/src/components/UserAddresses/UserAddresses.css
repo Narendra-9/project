@@ -1,0 +1,80 @@
+
+.address-card-name{
+    /* background-color: #5899C4; */
+    background-color: #FF5640;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 20px; */
+}
+
+.address-card-premium .address-card-name{
+    background-color: goldenrod !important;
+}
+
+.address-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.address-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    
+}
+
+.address-card-premium{
+    border:1px solid goldenrod !important;
+}
+
+.address-card-address{
+    padding: 10px;
+}
+.address-card-btns{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.addres-card-edit-btn{
+    border: none;
+    background-color: #FF5640;
+    color: white;
+    padding: 5px;
+    width: 70px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.address-card-premium .addres-card-edit-btn{
+    background-color: goldenrod !important;
+}
+
+.address-card-remove-btn{
+    border: 1px solid white;
+    background: transparent;
+    padding: 4px;
+    color: white;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.dummy-card{
+    width: 350px;
+    min-height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px dotted white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:  pointer;
+}
+

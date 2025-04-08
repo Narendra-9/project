@@ -1,0 +1,17 @@
+.dashboard-container{
+    color: white !important;
+    padding-bottom: 50px;
+}
+
+.admin-page-body{
+    height: 100vh;
+}
+
+
+.order-notification-toast {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    min-width: none !important;
+  }

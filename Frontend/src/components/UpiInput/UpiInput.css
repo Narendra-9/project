@@ -1,0 +1,26 @@
+.saved-upi-item{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.saved-upi-item:hover{
+    background-color: #5899c46e;
+}
+
+.selected-upi-item{
+    background-color: #5899C4 !important;
+    
+}
+
+.saved-upi-accordian{
+    background-color: #47555F !important;
+    color: white !important;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.order-payment-page-premium .saved-upi-accordian{
+    background-color: rgb(57, 55, 55) !important;
+}

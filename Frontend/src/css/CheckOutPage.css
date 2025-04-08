@@ -1,0 +1,166 @@
+.check-out-page-container{
+    margin-top: 100px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.check-out-left-container{
+    width: 40%;
+    padding: 40px;
+}
+
+.check-out-right-container{
+    width: 60%;
+    padding: 20px;
+}
+
+.checkout-page-addrss-card-header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-page-address-card{
+    box-shadow: 0px 0px 10px 0px black;
+    background-color: #30404B;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.check-out-page-container-premium .checkout-page-address-card{
+    background-color: rgb(42, 41, 41) !important;
+}
+
+.checkout-page-address-card p{
+    margin: 0;
+    font-size: 17px;
+}
+
+.checkout-page-address-card-user-name-phonenumber{
+    display: flex;
+}
+
+.checkout-page-address-edit-btn,.checkout-page-address-remove-btn{
+    padding: 2px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background:rgba(128, 128, 128, 0.283);
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.empty-checkout{
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+}
+
+.grab-supplements{
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #FF5640;
+    color: white;
+}
+
+/* My Custom CheckBox */
+.checkout-page-deliver-here-div{
+    display: flex;
+}
+
+.deliver-here-checkbox-div{
+    display: flex;
+    border: 1px solid white;
+    padding: 10px;    
+    border-radius: 4px;
+}
+
+.deliver-here-checkbox {
+    display: none;
+}
+
+.deliver-here-label {
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+.deliver-here-label:before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.deliver-here-checkbox:checked + .deliver-here-label:before {
+    background-color: white;
+    border-color: #FF5640;
+}
+
+.check-out-page-container-premium .deliver-here-checkbox:checked + .deliver-here-label:before {
+    border-color: goldenrod !important;
+}
+
+.deliver-here-checkbox:checked + .deliver-here-label:after {
+    content: '✔';
+    position: absolute;
+    left: 5px;
+    top: 0px;
+    color: #FF5640;
+    font-size: 16px;
+}
+.check-out-page-container-premium .deliver-here-checkbox:checked + .deliver-here-label:after {
+    color: goldenrod !important;
+}
+
+
+.glow {
+    background-color:#FF5640;
+}
+
+.check-out-page-container-premium .glow{
+    background-color: goldenrod !important;
+}
+
+
+/* CheckOut Page Address Section */
+.checkout-page-add-address-div{
+    border: 1px dotted white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-page-proceed-to-pay-btn{
+    padding: 10px;
+    min-width: 200px;
+    width: 40%;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: #FF5640;
+    margin-top: 20px;
+}
+
+.check-out-page-container-premium .checkout-page-proceed-to-pay-btn{
+    background-color: goldenrod !important;
+    color: black !important;
+}
+
+.check-out-page-add-address{
+    background:transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}

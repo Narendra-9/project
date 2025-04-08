@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your OTP Code</title>
+    <style>
+        body { font-family: Arial, sans-serif; color: #333; }
+        .email-container { width: 600px; margin: 0 auto; padding: 20px; background-color: #192B37; border-radius: 10px; color: white; }
+        .header { text-align: center; }
+        .company-name { color: #ff5640; }
+        .otp { font-size: 24px; font-weight: bold; color: #4CAF50; text-align: center; margin: 20px 0; }
+		.valid-msg {font-size: 13px;}
+        .footer { text-align: center; margin-top: 20px; font-size: 14px; color: #bbb; }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <img src="cid:companyLogo" alt="Company Logo" style="height: 100px;">
+            <h2>One-Time Password (OTP) for Email Verification</h2>
+        </div>
+        <p>Dear User,</p>
+        <p>Your One-Time Password (OTP) for verifying your email is:</p>
+        <div class="otp">${otp}</div>
+        <p class="valid-msg">This OTP is valid for 10 minutes. Please do not share it with anyone.</p>
+        <div class="footer">
+            <p>Thank you for using our service!</p>
+            <p>Best regards,<br><span class="company-name">Endava Strength</span></p>
+        </div>
+    </div>
+</body>
+</html>

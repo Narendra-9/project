@@ -1,0 +1,114 @@
+.loyality-page-container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10vh;
+    BACKGROUND:
+        LINEAR-GRADIENT(TO RIGHT,
+            #040404, #000000, #656565);
+    /* background: rgb(155,131,0); */
+    /* background: linear-gradient(215deg, rgba(155,131,0,0.8120040252429097) 0%, rgba(28,45,54,1) 63%); */
+}
+
+
+.es-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.endava-strength-premium-content-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gold;
+    border-radius: 10px;
+    /* width: 50%; */
+    height: 90%;
+    width: 80%;
+    min-width: 400px;
+}
+
+.premium-buy-now-div {
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(254, 200, 78);
+    background: linear-gradient(0deg, rgba(254, 200, 78, 1) 0%, rgba(255, 251, 241, 1) 92%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+
+.MuiSlider-rail {
+    background-color: #d3d3d3 !important;
+    /* Grey rail */
+}
+
+
+.MuiSlider-thumb {
+    background-color: gold !important;
+    /* Gold thumb */
+}
+
+.MuiSlider-track {
+    background-color: gold !important;
+    /* Grey track */
+}
+
+.loyality-buy-now-btn{
+    border: none;
+    padding: 8px;
+    width: 100%;
+    background-color: rgb(225, 158, 1);
+}
+
+.loyality-range{
+    margin: 0;
+    margin-top: -10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.premium-icon{
+    height: 70px;
+    width: auto;
+}
+
+.premium-iconn{
+    height: 30px;
+    background-color: black;
+    padding: 5px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.premium-icon-in-logo{
+    height: 20px;
+}
+
+.exclusive-benefits-accordian{
+    width: 400px;
+    background: transparent !important;
+    color: white !important;
+    border: 2px solid grey;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.custom-loyality-divider {
+    position: relative;
+    width: 1px; /* This is the width of the divider */
+    height: 300px; /* Adjust height as needed */
+    background: linear-gradient(to bottom, 
+      transparent, /* Start fading from the top */
+      rgba(255, 217, 0, 0.142), /* Light fade in the middle */
+      rgba(255, 217, 0, 0.669), /* Slightly darker fade */
+      transparent /* End fading at the bottom */
+    );
+  }
+  

@@ -1,0 +1,15 @@
+.cart-page-expected-delivery-content{
+    color:#FF5640;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cart-page-truck-icon path{
+    fill: #FF5640;
+}
+
+.cart-page-truck-icon{
+    height: 18px;
+    width: auto;
+}

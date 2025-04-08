@@ -1,0 +1,14 @@
+.userOrderSkeleton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(22, 22, 22, 0.619);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}

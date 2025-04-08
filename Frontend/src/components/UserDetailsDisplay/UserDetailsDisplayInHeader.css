@@ -1,0 +1,13 @@
+.admin-deatils-box:hover{
+    cursor: pointer;
+}
+
+.user-display-avatar{
+    background-color: #5E6A73 !important;
+    color: white !important;
+}
+
+.user-display-avatar-premium{
+    background-color: black !important;
+    color: gold !important;
+}

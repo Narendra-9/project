@@ -1,0 +1,179 @@
+.admin-header {
+  color: white;
+  height: 70px;
+  background-color: #192b37;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.admin-menu-overlay {
+  position: fixed;
+  z-index: 140;
+  height: 100%;
+  width: 100%;
+  top: 70px;
+  background-color: rgba(0, 0, 0, 0.475);
+}
+
+.items-list {
+  height: 60%;
+}
+
+.side-nav {
+  position: fixed;
+  z-index: 150;
+  color: white;
+  min-width: 230px;
+  background-color: #30404b;
+  height: 100%;
+  top: 70px;
+  transition: all 0.2s ease-in-out;
+  left: -100%;
+}
+
+@media (max-width: 768px) {
+  .side-nav {
+    height: 100vh;
+  }
+}
+
+.opened {
+  left: 0%;
+}
+
+.side-nav-item {
+  padding: 10px;
+  margin: 10px !important;
+  margin: 2px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.logout-outer-container {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.item-text {
+  transition: padding-left 1s;
+  margin-left: 5px;
+}
+
+.side-nav-item:hover {
+  background-color: #47555f;
+}
+
+.side-nav-item:hover .item-text {
+  padding-left: 10px;
+}
+
+.item-icon {
+  margin-top: -6px;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.menu-icon path {
+  fill: #ff5640;
+}
+
+.notification-icon path {
+  fill: white;
+}
+
+.item-icon path {
+  fill: #ff5640;
+}
+.truck-icon path {
+  fill: #ff5640;
+}
+
+.logo-section-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .logo-section-container {
+    width: 20%;
+  }
+}
+
+/* Admin profile Section CSS*/
+.admin-details-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 300px;
+  padding-right: 10px;
+}
+
+.admin-deatils-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.admin-name-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.admin-name {
+  margin: 0;
+}
+
+.admin-email {
+  margin: 0;
+  font-size: 10px;
+}
+
+@media (max-width: 768px) {
+  .admin-name-details {
+    display: none;
+  }
+  .admin-details-container {
+    justify-content: end;
+    width: 130px;
+  }
+  .admin-deatils-box {
+    margin-left: 10px;
+  }
+}
+
+/* Dropdown css */
+.custom-dropdown-btn {
+  background: transparent !important;
+  border: none !important;
+}
+
+.custom-dropdown-btn .dropdown-toggle {
+  background: transparent !important;
+  border: none !important;
+}
+
+.custom-dropdown-btn .dropdown-menu {
+  margin-top: 10px;
+  background-color: #30404b !important;
+}
+
+.custom-dropdown-btn .dropdown-item:hover {
+  background-color: #47555f;
+}
+
+.custom-dropdown-btn .dropdown-item {
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+}

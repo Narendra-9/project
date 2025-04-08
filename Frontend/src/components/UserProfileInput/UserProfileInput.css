@@ -1,0 +1,22 @@
+.user-profile-input-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile-label{
+    font-size: 13px;
+}
+
+.user-profile-input{
+    background-color: #47555F;
+    border: none;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.737);
+    height: 40px;
+    padding: 10px;
+}
+
+.user-profile-input:focus{
+    outline: none;
+}
+

@@ -1,0 +1,16 @@
+.content-heading{
+    display: flex;
+    align-items: center;
+}
+
+.side-bullet-point{
+    width: 10px;
+    height: 40px;
+    background-color: #FF5640;
+}
+
+.side-bullet-point-premium{
+    width: 10px;
+    height: 40px;
+    background-color: rgb(255, 183, 0);
+}

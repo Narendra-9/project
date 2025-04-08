@@ -1,0 +1,130 @@
+.view-order-details{
+    margin-top: 100px;
+    color: white;
+    font-size: 10px;
+}
+
+
+
+.order-invoice{
+    background-color: white;
+
+    max-width: 500px;
+    color: #192B37;
+    margin: auto;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+}
+
+.view-order-details p{
+    margin: 0;
+    font-size: 10px;
+}
+
+.invoice-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-invoice-right-corner{
+    text-align: end;
+}
+
+.invoice-sold-by-address{
+    width: 50%;
+}
+.inovice-billing-address{
+    width: 50%;
+    text-align: end;
+}
+
+.invoice-address-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.invoice-order-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.invoide-date-details{
+    text-align: end;
+}
+
+.invoice-order-table table  {
+    border: 1px solid black !important;
+}
+
+.invoice-order-table th{
+    border: 1px solid black !important;
+}
+
+.invoice-order-table td{
+    border: 1px solid black !important;
+}
+
+.invoice-order-table table{
+    width: 100%;
+}
+.invoice-order-table th{
+    color: black !important;
+    background-color: rgba(128, 128, 128, 0.616);
+}
+.invoice-signature{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.invoice-last-row{
+    display: flex;
+}
+
+.invoice-last-row div{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.txn{
+    width: 40%;
+}
+
+.not-txn{
+    width: 20%;
+}
+
+
+
+.invoice-order-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.invoice-order-table th, 
+.invoice-order-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 200px;
+    overflow-wrap: break-word; 
+}
+
+
+.invoice-last-row p{
+    font-size: 8px !important;
+}
+.invoice-dwonload-button-div{
+    display: flex;
+    justify-content: center;
+}
+.invoice-dwonload-button{
+    padding: 7px 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: #FF5640;
+    border-radius: 5px;
+}

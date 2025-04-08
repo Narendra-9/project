@@ -1,0 +1,172 @@
+.product-varient-button {
+  border: 2px solid white;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+  /* background: none !important; */
+  color: white;
+}
+
+.product-varient-button:hover {
+  background-color: #ff5640 !important;
+}
+
+.product-varients-accrodian {
+  background-color: rgba(128, 128, 128, 0.616) !important;
+  color: white;
+  /* border: 1px solid white; */
+  border-radius: 10px !important;
+}
+
+/* .primary-img-container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+} */
+
+.product-add-to-cart-button {
+  width: 80%;
+  border: none;
+  background-color: #ff5640;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.product-notify-me-btn {
+  background: transparent;
+  border: 1px solid #ff5640;
+  color: #ff5640;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-buy-now-button {
+  width: 80%;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.minus-button {
+  /* border: 1px solid white; */
+  border: none;
+  background: transparent;
+  background-color: rgba(128, 128, 128, 0.801);
+  color: white;
+  height: 100%;
+  width: 30%;
+}
+
+.plus-button {
+  /* border: 1px solid white; */
+  border: none;
+  /* background: transparent; */
+  background-color: rgba(128, 128, 128, 0.801);
+  color: white;
+  height: 100%;
+  width: 30%;
+}
+
+.change-quantity-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 40px;
+  width: 120px;
+  border: 1px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px black;
+}
+
+.pincode-input {
+  background-color: #dbdbdb2b !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  height: 50px;
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.pincode-input:focus {
+  box-shadow: 0px 0px 5px 1px #ff5640;
+}
+
+.pincode-input::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-weight: 500;
+}
+
+.check {
+  text-decoration: underline;
+  color: #ff5640;
+  cursor: pointer;
+}
+
+.pincode-input::-webkit-outer-spin-button,
+.pincode-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pincode-input[type="number"] {
+  -moz-appearance: textfield; /* For Firefox */
+}
+
+.pincode-error-msg {
+  color: red;
+  /* width: 100px; */
+  display: flex;
+  /* background-color: white; */
+}
+
+.facility-icon path {
+  fill: #ff5640;
+}
+
+.facility-icon {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.facilities-product-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 !important;
+}
+
+.product-page-premium-price {
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: black;
+  padding: 7px;
+  border-radius: 10px;
+  border: 1px solid gold;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.product-page-premium-price:hover {
+  box-shadow: 0px 0px 10px 0px gold;
+}
+
+.p-page-add-disable {
+  opacity: 0.5;
+}
+
+
+.authenticated-user{
+  height: 20px !important;
+  width: auto !important;
+  margin-left: 10px !important;
+}

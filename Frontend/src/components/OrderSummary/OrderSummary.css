@@ -1,0 +1,9 @@
+.order-summary-container-component{
+    background-color: #2e404d;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.order-summary-premium{
+    background-color: rgb(43, 41, 41);
+}

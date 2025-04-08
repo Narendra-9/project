@@ -1,0 +1,50 @@
+.table {
+  border: none !important;
+  width: 100%;
+}
+
+.table th {
+  color: white !important;
+  background-color: #30404b !important;
+  border: none !important;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid white !important;
+}
+
+.table td {
+  color: white !important;
+  border: none !important;
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.table tr {
+  background-color: #47555f;
+  border: none;
+}
+.view path {
+  fill: white;
+}
+
+.fullName {
+  text-align: left !important;
+  width: 300px;
+}
+
+.tablebodytr:hover {
+  /* background-color: #ff5640a1!important; */
+  background-color: #4d697e !important ;
+  cursor: pointer;
+}
+
+.pagination {
+  color: white !important;
+}
+
+.orderDate {
+  width: 190px;
+  text-align: justify;
+  background-color: rebeccapurple;
+}

@@ -1,0 +1,22 @@
+.product-description-key{
+    font-size: 13px ;
+    font-weight: 600;
+}
+
+.product-description-value{
+    font-size: 13px ;
+    font-weight: 400;
+
+
+}
+
+.product-description-body{
+    /* height: 100px; */
+    margin-top: 6px;
+    overflow: hidden;
+}
+
+.read-more{
+    font-size: 13px;
+    color: #68b5e8;
+}

@@ -1,0 +1,64 @@
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    color: black !important;
+    /* background: linear-gradient(180deg, #0f4c75, #FF5640); */
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    width: 200px;
+    height: 120px;
+    background-color: #0f4c75;
+    /* background: linear-gradient(135deg, #1b262c, #45a29e); */
+    /* background: linear-gradient(135deg,#192B37, #FF5640); */
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+  }
+  
+  .card-chip {
+    width: 30px;
+    height: 20px;
+    background-color: gold;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .loading-dots {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #FF5640;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .processing-text {
+    margin-top: 15px;
+    font-size: 20px;
+    opacity: 0.8;
+    font-weight: 600;
+    color: #FF5640 ;
+  }
+  

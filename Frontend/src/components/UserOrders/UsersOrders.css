@@ -1,0 +1,28 @@
+.user-orders-container{
+    color: white;
+
+}
+
+.orders-loading{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.puff-loader{
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.load-more-div{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.user-orders-load-more-btn{
+    border: none;
+    background:transparent;
+    color: white;
+}

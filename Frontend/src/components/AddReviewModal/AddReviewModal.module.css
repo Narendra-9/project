@@ -1,0 +1,89 @@
+.modalTitle{
+    display: flex;
+    align-items: center;
+}
+
+.modalTitle p{
+    margin: 0;
+}
+
+.variant{
+    font-size: 13px;
+}
+
+.modalBody{
+    background-color: #192B37;
+    color: white;
+    border: none;
+}
+
+.titleContent{
+    margin-left: 10px;
+}
+
+.tileInputDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.descriptionInputDiv{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.ratingDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.ratingDiv p{
+    margin: 0 ;
+}
+
+.rating{
+    margin-top: 10px;
+}
+
+.input{
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #30404B;
+    border: 1px solid white;
+    color: white;
+}
+
+.input::placeholder{
+    color: rgba(255, 255, 255, 0.466);
+    font-size: 15px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.modalFooter{
+    background-color: #30404B;
+}
+
+
+.saveBtn{
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: 1px solid #ff5640;
+    color:white;
+    background-color: #ff5640;
+}
+
+.closeIcon path{
+    fill: #ff5640;
+}
+
+.closeIcon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}

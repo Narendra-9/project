@@ -1,0 +1,44 @@
+.profile-page-saved-upi-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.upi-app-logo{
+    height: 20px;
+    width: auto;
+}
+
+.profile-page-saved-upi p{
+    margin: 0;
+    font-size: 18px;
+}
+
+.profile-page-saved-upi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.783);
+}
+
+.saved-upi-delete-btn path{
+    fill: black;
+}
+
+.saved-upi-delete-btn{
+    height: 18px;
+    width: auto;
+    cursor: pointer;
+}
+
+.saved-upi-delete-div{
+    display: flex;
+    justify-content: end;
+}
+.saved-upi-logo{
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,38 @@
+.es-cash-page{
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.es-cash-heading{
+    display: flex;
+    margin-top: 110px;
+    justify-content: center;
+}
+
+.es-cash-description p{
+    text-align: justify;
+}
+.es-cash-continue-shopping-btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.es-cash-continue-shopping-btn{
+    /* border: 1px solid #FF5640; */
+    border: none;
+    padding: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+    /* width: 230px; */
+    font-weight: bold;
+    background: transparent;
+    /* background-color: #FF5640; */
+    color: white;
+    border-radius: 10px;
+    color: #FF5640;
+}
+
+.es-cash-page-lock-icon path{
+    fill: #FF5640;
+}

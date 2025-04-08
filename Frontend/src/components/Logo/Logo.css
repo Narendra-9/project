@@ -1,0 +1,14 @@
+.logo-text{
+    font-weight: 700;
+    font-size: 25px;
+    color: "white";
+    font-family:"DavaSans" 
+}
+
+
+/* Hide the logo on screens smaller than 768px */
+@media (max-width: 768px) {
+    .logo-text{
+        display: none;
+    }
+}

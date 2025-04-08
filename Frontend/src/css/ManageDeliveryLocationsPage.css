@@ -1,0 +1,70 @@
+.manage-delivery-locations-container {
+  margin: 100px;
+  color: white;
+}
+
+.location-add-btn {
+  padding: 8px;
+  height: 50px;
+  border: 2px solid white;
+  background: transparent;
+  border-radius: 30px;
+  width: 100px;
+  color: white;
+  font-weight: 900;
+}
+
+.location-page-input {
+  background-color: #dbdbdb2b !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  height: 50px;
+  border: none !important;
+  border-radius: 10px !important;
+}
+.location-page-input::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-weight: 500;
+}
+
+.location-delete-icon:hover {
+  color: #ff5640;
+  cursor: pointer;
+}
+
+/* These are to hide the number input side buttons */
+.number-input::-webkit-outer-spin-button,
+.number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.number-input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Table Styles */
+.manage-delivery-locations-table {
+  border: none !important;
+  width: 100%;
+}
+
+.manage-delivery-locations-table th {
+  color: white !important;
+  background-color: #30404b !important;
+  border: none !important;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid white !important;
+}
+
+.manage-delivery-locations-table td {
+  color: white !important;
+  border: none !important;
+  text-align: center;
+  font-size: 15px;
+}
+
+.manage-delivery-locations-table tr {
+  background-color: #47555f;
+  border: none;
+}

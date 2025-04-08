@@ -1,0 +1,162 @@
+.cart-item-card{
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.cart-item-card-premium{
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    background-color: #2c3e50;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    background: transparent;
+    border: 1px solid gold;
+}
+
+.cart-item-card-premium p{
+    margin: 0;
+}
+
+.cart-item-name{
+    width: 350px;
+    display: -webkit-box;          
+    -webkit-line-clamp: 1;         
+    -webkit-box-orient: vertical;   
+    overflow: hidden;               
+    text-overflow: ellipsis;        
+}
+
+.cart-item-img-div{
+    cursor: pointer;
+}
+
+.item-img{
+    border-radius: 10px;
+}
+
+.cart-item-content-div{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cart-item-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.move-to-wishlist-btn{
+    border: 1px solid white;
+    background: transparent;
+    padding: 8px;
+    width: 220px;
+    color: white;
+    margin-left: 50px;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 5px;
+}
+.cart-icon path{ 
+    fill:#FF5640
+}
+
+.cart-item-delete-btn-div{
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+.cart-item-card p{
+    margin: 0 !important;
+}
+
+.cart-item-price{
+    display: flex;
+    align-items: center;
+}
+
+.cart-item-discounted-price{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-item-actual-price{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+
+.cart-item-save-price{
+    font-size: 18px;
+    color: #2D9C5B;
+}
+
+.cart-item-delete-btn{
+    transition: all 0.2s ease;
+}
+
+.cart-item-delete-btn:hover{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.ednava-cash-each-cart-item{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: gold;
+}
+
+.swal-div-content{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.custom-popup{
+    background-color:#47555F;
+    box-shadow: 0px 0px 10px 0px black;
+    color: white;
+    width: 540px;
+}
+.sweet-alert-img-product{
+    border-radius: 10px;
+}
+.sweet-alert-cart-del-msg{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-cancel-button{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background: transparent;
+}
+
+.swal2-actions {
+    margin-top: 0 !important;
+    margin-bottom: 0px !important;
+}
+
+.en-cloce-icon-swal path{
+    fill: #FF5640;
+}
+
+.custom-confirm-button{
+    background-color: #FF5640 !important;    
+}
+
+.custom-deny-button{
+    background: transparent;
+    border: 1px solid white;
+}
